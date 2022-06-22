@@ -1,0 +1,7 @@
+Terminal:
+curl -Ss https://getcomposer.org/installer | php
+ls
+sudo mv composer.phar /usr/local/bin/compose
+chmod +x /usr/local/bin/composer
+composer
+sudo composer self-update
